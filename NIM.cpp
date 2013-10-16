@@ -36,6 +36,7 @@ int main( )
 	{
 		cout << endl << endl << endl;
 		cout << "                ADALVALMYND " << endl << endl;
+		cout << "                ******************************" << endl;  // sigurbjorgj12 gerği breytingu
 		cout << "                      1. Spila NIM" << endl;
 		cout << "                      2. Birta reglurnar i NIM" << endl;
 		cout << "                      3. Haetta " << endl << endl;
@@ -68,7 +69,7 @@ void spila( )
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
 	cout << "Yttu a einhvern lykil: " << endl;
 
-	srand( time( 0 ) );	
+	srand( time( 0 ) );
 
 	hrugufjoldi = ( (rand( ) % 8 ) + 2 );
 	cout << "Vid spilum med " << hrugufjoldi << " hrugur. " << endl;
@@ -204,7 +205,7 @@ void tolva( int* hruga )
 	{
 		cout << "      Eg tek " << eldspytur << " eldspytur ur hrugu nr. ";
 	}
-	else 
+	else
 	{
 		cout << "      Eg tek " << eldspytur << " eldspytu ur hrugu nr. ";
 	}
